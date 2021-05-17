@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(221, 248, 248);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    text-align: center;
+    margin-top: 10px;
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(221, 248, 248);
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    height: 80vh;
+    width: auto;
+    border: 3px solid rgb(97, 97, 110);
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(253, 251, 252, 0.3), rgba(255, 0, 150, 0.3)),  url('https://i.pinimg.com/originals/c6/28/87/c62887db7cea40ab5753171c86e456ef.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.active{
+    background-color: rgba(248, 29, 29, 0.932);
+    color: rgb(0, 0, 0);
+    height: 80px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 5px 4px 25px rgba(255, 83, 83, 0.15);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    margin: 15px 2px;
+}
+
+.confirmed{
+    background-color: rgb(112, 122, 250);
+    color: rgb(0, 0, 0);
+    height: 80px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(12, 12, 12, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    margin: 15px 2px;
+
+}
+.recovered{
+    background-color: rgb(30, 240, 111);
+    color: rgb(0, 0, 0);
+    height: 80px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(12, 12, 12, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    margin: 15px 2px;
+
+}
